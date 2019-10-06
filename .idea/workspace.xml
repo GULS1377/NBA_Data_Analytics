@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22392750-7ad6-4ec1-9417-051b552175e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleanTwitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/cleanTwitter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +72,8 @@
       <updated>1570375665015</updated>
       <workItem from="1570375673543" duration="377000" />
       <workItem from="1570377637609" duration="2817000" />
+      <workItem from="1570384425433" duration="255000" />
+      <workItem from="1570384742202" duration="511000" />
     </task>
     <servers />
   </component>
