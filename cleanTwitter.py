@@ -23,11 +23,9 @@ if __name__ == '__main__':
         print(col)
         printUniqueCount(myData,col)
         for c in col:
+            print("------------------------------")
             valueCounts = myData[c].value_counts()
             empty= myData[myData[c] == None]
-            # print(valueCounts)
+            print(valueCounts)
             # print rate of None value
-            print('for column '+ c +" :",len(empty) / len(myData))
-
-
-
+            print(len(empty) / len(myData))
