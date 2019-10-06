@@ -29,5 +29,3 @@ if __name__ == '__main__':
             print(valueCounts)
             # print rate of None value
             print(len(empty) / len(myData))
-
-
