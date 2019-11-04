@@ -27,6 +27,7 @@
 │   ├── Clustering_ associationrules.py
 │   ├── Predictive_Analysis_Classification.py
 │   ├── Predictive_Models_Graphs.xlsx
+│   ├── t_test.py
 │   ├── README.md
 │   ├── README.pdf
 │   ├── Project Report.md
@@ -55,6 +56,7 @@
 - Clustering_ associationrules.py: python file of Clustering and association rules.
 - Predictive_Analysis_Classification.py: the python file for classification of Predictive Models Part.
 - Predictive_Models_Graphs.xlsx: the excel file for some graphs used in Project Report of Predictive Models Classification Part.
+- t_test.py: main python file of Hypothesis tests.
 - README.md: the markdown file of README for PJ Phase2.
 - README.pdf: the pdf file of README for PJ Phase2.
 - Project Report.md: the markdown file of Project Report for PJ Phase2.
@@ -145,6 +147,17 @@
     # More detailed comments are in the python program
     ```
 
+- t_test.py
+
+  > main python file of Hypothesis tests.
+
+  - **Functions Description**
+
+    ```python
+    # execute the whole process
+    def execute():
+    ```
+  
 - Predictive_Analysis_Classification.py
 
   > the python file for classification of Predictive Models Part.
@@ -171,7 +184,7 @@
 | :-----------------: | :----------------------------------------------------------: |
 | Lu  Sun    (ls1377) | Predictive Analysis Classification Part and integration of all documents for PJ Report and README. |
 | Yijun  Gan (yg270)  | Clustering analysis and association rules analysis on subsets. |
-| Shuyang  Yu (sy614) |                                                              |
+| Shuyang  Yu (sy614) |          Predictive Analysis Hypothesis test Part.           |
 |  Bo  Zhou (bz166)   | Basic  Statistical Analysis and data cleaning insight, Additional  Part for CS Students,  Histograms  and Correlations |
 
 

@@ -229,6 +229,74 @@
 
 #### 5.1 Parametric statistical tests
 
+#####          **Hypothesis Test**  
+
+- **First hypothesis test**  
+
+  > **whether prominent players and normal players have same field goal percentages.**  
+  >
+  > We want to know whether players whose career average points higher than 10 is statistically different from those are not in terms of career average field goal percentage. The reason behind for this test is we really want to know whether it is a fair or reasonable way to define a NBA player as a phenomenal player or not simply looking at their average points. It is possible NBA players average career points higher than 10 has lower points percentage, which means they got these many points by trying more field goals. Therefore, it is necessary to statistically examine whether these two kinds of players’ field goal percentage’s difference.  
+  >
+  > **Null hypothesis**: prominent NBA players (career average points per game higher than 10) and normal NBA players have the same Field Goal Percentages (H0) .
+  >
+  > **Alternative hypothesis**: prominent NVA players and normal NBA players have different Field Goal Percentages (H1).
+  >
+  > Our results are T-value: 10.59, P-value: 9.02*10^-26. This large T value and super small p value indicates our null hypothesis is false and these two kinds of NBA players are significantly different in terms of field goal percentage.
+
+- **Second hypothesis test:**
+
+  > **whether players from different positions have same career points.**  
+  >
+  > By doing this test, we could find out whether NBA players’ position would affect their points they get. It is not surprising to find out each position on basketball court has distinct role and responsibilities. However, the goal of the game of basketball is to put the ball into the basket, which means to “get points”. Therefore, it is worthwhile to find out whether some positions might more easier to have higher points than some others statistically.
+  >
+  > I use iteration to test each position (totally five), say first position x and second position y, so there are totally 10 tests.
+  >
+  > **Null hypothesis**: players of position x and player of position y have same average points.
+  >
+  > **Alternative hypothesis**: players of position x and player of position y have different average points.
+  >
+  > Result:  
+  >
+  > |      | C                                                    | SF                                                    | SG                                                    | PG                                                  | PF                                                  |
+  > | ---- | ---------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+  > | C    |                                                      | (-4.399322660942447,  1.1894279318897957e-05, 1120.0) | (-4.109796009288748,  4.2275383204110836e-05, 1207.0) | (-3.542976493178241, 0.000411826056450884,  1127.0) | (-1.369763593521598, 0.17102375052395263,  1169.0)  |
+  > | SF   | (4.399322660942447, 1.1894279318897957e-05,  1120.0) |                                                       | (0.33302684275074923, 0.7391711003229472,  1223.0)    | (1.1086384143189745, 0.2678194149985443,  1143.0)   | (3.220307994003003, 0.001315309596736067,  1185.0)  |
+  > | SG   | (4.109796009288748, 4.2275383204110836e-05,  1207.0) | (-0.33302684275074923, 0.7391711003229472,  1223.0)   |                                                       | (0.7690293835810792, 0.44202350751126196,  1230.0)  | (2.912310791229858, 0.0036502702104930494,  1272.0) |
+  > | PG   | (3.542976493178241, 0.000411826056450884,  1127.0)   | (-1.1086384143189745, 0.2678194149985443,  1143.0)    | (-0.7690293835810792, 0.44202350751126196,  1230.0)   |                                                     | (2.241396915772562, 0.025183827681914777,  1192.0)  |
+  > | PF   | (1.369763593521598, 0.17102375052395263,  1169.0)    | (-3.220307994003003, 0.001315309596736067,  1185.0)   | (-2.912310791229858, 0.0036502702104930494,  1272.0)  | (-2.241396915772562, 0.025183827681914777,  1192.0) |                                                     |
+  >
+  > Here, C, SF, SG, PG, PF are five different positions. The three values in each cells are t-value, p-value and degree of freedoms. 
+  >
+  >  
+  >
+  > From above table, we can see:
+  >
+  > 1. center players reject null hypothesis with small forward, shooting guard and point guard players, but same with power forward players (t-value: -1.37, p-value: 0.17).
+  >
+  > 2. small forward players reject null hypothesis with center and power forward players, but accept null hypothesis with shooting guard (t-value: 0.33, p-value: 0.74)and point guard players (t-value: 1.11, p-value: 0.27).
+  >
+  > 3. shooting guard players reject null hypothesis with power forward players but accept with point guard players (t-value: -0.77, p-value: 0.44)
+  >
+  >  
+  >
+  > To conclude, the result shows that “smaller players” (point guard, shooting guard, small forward players) and “bigger players” (center, power forward players) have same career average points respectively, but they are different from each other. Therefore, we might divide whole NBA players into these two groups for further analysis.
+
+- ##### Third hypothesis test  
+
+  > We want to examine if it is true when a player is good at scoring, he will shoot more and get more points. We use linear regression to fit two features of players, which are career average points and career average field goal percentage.
+  >
+  >  
+  >
+  > **Null hypothesis**: There is a linear relationship between player’s career average points and field goal percentage.
+  >
+  > **Alternative hypothesis**: They do not have a linear relationship
+  >
+  > Result:
+  >
+  > ![image-20191104012718575](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191104012718575.png)
+  >
+  > We may find the result indicating the null hypothesis does not hold, as the R-squared value is quite low. We can also see that P>|t| is way bigger than 0.05. Therefore, we may conclude that there is no linear relationship between these players’ career average points and their field goal percentage.
+
 #### 5.2 Data driven predictive models
 
 ##### **Prediction task** for all models: 
