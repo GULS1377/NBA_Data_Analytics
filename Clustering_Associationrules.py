@@ -36,7 +36,7 @@ def process_pca(X, components):
 
 
 def clustering():
-    player_career_stats = pd.read_csv('player_career_stats_cleaned.csv')
+    player_career_stats = pd.read_csv('PJ Phase1\\5.player_career_stats_cleaned.csv')
 
     # Drop none numeric columns
     X = player_career_stats.drop(columns=['Name', 'Season', 'Lg'])
@@ -117,7 +117,7 @@ def print_apriori(sparse_df, min_support_value):
 
 
 def association():
-    salary_of_player = pd.read_csv('salary_of_players.csv', header=None)
+    salary_of_player = pd.read_csv('PJ Phase1\\8.salary.csv', header=None)
 
     # manually added column to make sense
     salary_of_player.columns = ['name', 'serving_year', 'team', 'career', 'salary']

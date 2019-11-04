@@ -33,22 +33,22 @@ def getNorms(Data):
     return X_normalized
 
 # function that can calculate accuracy of different classifiers
-def calculateAccuracy(models,X_normalized,index,options):
+def calculateAccuracy(models,X_normalized,Y,options):
     # split data into training part and testing part
-    X_train, X_validate, Y_train, Y_validate = train_test_split(X_normalized, Y, test_size=test_size, random_state=seed)
+    X_train, X_validate, Y_train, Y_validate = train_test_split(X_normalized, Y, test_size=0.2, random_state=1)
     # cross-validation
     for name, model in models:
-        kfold = KFold(n_splits=num_folds, random_state=seed, shuffle=False)
-        cv_results = cross_val_score(model, X_train, Y_train, cv=kfold, scoring=scoring)
+        kfold = KFold(n_splits=5, random_state=1, shuffle=False)
+        cv_results = cross_val_score(model, X_train, Y_train, cv=kfold, scoring='accuracy')
         msg = "Cross-validation result with norm %s: %s: %f" % (
-        options[index], name, cv_results.mean())
+        options[0], name, cv_results.mean())
         print(msg)
     # train and predict
     for name, model in models:
         model.fit(X_train, Y_train)
         predictions = model.predict(X_validate)
         print("Accuracy on test dataset with norm %s: %s: %f" % (
-        options[index], name, accuracy_score(Y_validate, predictions)))
+        options[0], name, accuracy_score(Y_validate, predictions)))
         # confusion matrix
         print("confusion matrix: ",confusion_matrix(Y_validate, predictions))
         # ROC curve
@@ -66,13 +66,13 @@ def categorical(myData, CategoricalNames):
         myData[attribute] = pd.Categorical(myData[attribute])
         myData[attribute] = myData[attribute].cat.codes
 
-if __name__ == '__main__':
+def execute():
     # initialize Data
-    models=initializeData()
+    models = initializeData()
     # read data
-    data=pd.read_csv('PJ Phase1\\5.player_career_stats_cleaned.csv')
+    data = pd.read_csv('PJ Phase1\\5.player_career_stats_cleaned.csv')
     # add final_score column
-    data['final_score']=data['PTS']>10
+    data['final_score'] = data['PTS'] > 10
     # make non-numeric categorical data numeric
     CategoricalNames = ['Name', 'Season', 'Lg', 'G', 'final_score']
     categorical(data, CategoricalNames)
@@ -80,15 +80,9 @@ if __name__ == '__main__':
     valueArray = data.values
     X = valueArray[:, 0:27]
     Y = valueArray[:, 28]
-    # set parameters
-    test_size = 0.20
-    seed = 1
-    index = 0
     options = ['l1']
-    num_folds=5
-    scoring = 'accuracy'
     # normalize data with different norms
     X_normalized_list = getNorms(X)
     # calculate the classification accuracy of three classifiers under different norms
     for X_normalized in X_normalized_list:
-        calculateAccuracy(models, X_normalized, index, options)
+        calculateAccuracy(models, X_normalized, Y, options)

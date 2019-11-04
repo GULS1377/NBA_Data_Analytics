@@ -1,0 +1,5 @@
+avg of Salary is:3273007.0
+median of Salary is:1514700.0
+std of Salary is:4409075.58
+-------
+-------

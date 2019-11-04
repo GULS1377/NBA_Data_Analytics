@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22392750-7ad6-4ec1-9417-051b552175e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a60e79bb-1bb0-48ea-9a07-dc41edb12787" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1Rpt3N7zdqXrCy4w08IJv8y1517" />
+  <component name="ProjectId" id="1T1rBr3OC87QrzmE3GIKASr2IVz" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -31,9 +31,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.grab_people">
-    <configuration name="cleanTwitter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NBA_Data_Analytics" />
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PJ2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -45,7 +45,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cleanTwitter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -54,20 +54,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="grab_people" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NBA_Data_Analytics" />
+    <configuration name="Predictive_Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PJ2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/OneDrive/Introduction to Data Analytics/Project" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/OneDrive/Introduction to Data Analytics/Project/grab_people.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Lu Sun\OneDrive\Introduction to Data Analytics\Project\PJ2\Predictive_Analysis_Classification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Predictive_Analysis_Classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PJ2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Predictive_Analysis_Classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,8 +100,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.grab_people" />
-        <item itemvalue="Python.cleanTwitter" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Predictive_Analysis_Classification" />
+        <item itemvalue="Python.Predictive_Analysis" />
       </list>
     </recent_temporary>
   </component>
@@ -88,31 +111,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="22392750-7ad6-4ec1-9417-051b552175e7" name="Default Changelist" comment="" />
-      <created>1570375665015</created>
+      <changelist id="a60e79bb-1bb0-48ea-9a07-dc41edb12787" name="Default Changelist" comment="" />
+      <created>1572638309884</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570375665015</updated>
-      <workItem from="1570375673543" duration="377000" />
-      <workItem from="1570376288946" duration="59000" />
-      <workItem from="1570397583033" duration="656000" />
+      <updated>1572638309884</updated>
+      <workItem from="1572638318036" duration="3447000" />
+      <workItem from="1572712624925" duration="1417000" />
+      <workItem from="1572785948421" duration="16218000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PJ2$Predictive_Analysis_Classification.coverage" NAME="Predictive_Analysis_Classification Coverage Results" MODIFIED="1572811288879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PJ2$Predictive_Analysis.coverage" NAME="Predictive_Analysis Coverage Results" MODIFIED="1572805070831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PJ2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1572837758539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

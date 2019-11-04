@@ -1,0 +1,49 @@
+avg of G is:322.49
+median of G is:179.0
+std of G is:336.3
+-------
+avg of GS is:143.9
+median of GS is:25.0
+std of GS is:236.56
+-------
+avg of MP is:16.68
+median of MP is:15.8
+std of MP is:8.86
+-------
+avg of eFG% is:0.46
+median of eFG% is:0.47
+std of eFG% is:0.11
+-------
+avg of ORB is:0.87
+median of ORB is:0.7
+std of ORB is:0.71
+-------
+avg of DRB is:2.03
+median of DRB is:1.7
+std of DRB is:1.5
+-------
+avg of TRB is:2.91
+median of TRB is:2.4
+std of TRB is:2.13
+-------
+avg of AST is:1.47
+median of AST is:1.0
+std of AST is:1.46
+-------
+avg of STL is:0.56
+median of STL is:0.5
+std of STL is:0.4
+-------
+avg of BLK is:0.33
+median of BLK is:0.2
+std of BLK is:0.4
+-------
+avg of TOV is:1.04
+median of TOV is:0.9
+std of TOV is:0.68
+-------
+avg of PTS is:6.54
+median of PTS is:5.3
+std of PTS is:4.86
+-------
+-------
