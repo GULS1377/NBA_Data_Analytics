@@ -4,34 +4,33 @@
 
 ### 1. Directory Structure
 
-.
-├── PJ Phase2
-│   ├── PJ Phase1               
-│    |     ├──  add 21.salary_cleaned_newFormat.csv
-│   ├── Main.py
-│   ├── clean.py
-│   ├── salary_src.csv
-│   ├── salary_dst.xlsx
-│   ├── player_src.csv
-│   ├── player_dst.csv
-│   ├── player_career_src.csv
-│   ├── player_career_dst.xlsx
-│   ├── player_normalization_dst.csv
-│   ├── player_career_normalization_dst.csv
-│   ├── mean_median_std_player.txt
-│   ├── mean_median_std_player_career.txt
-│   ├── mean_median_std_salary.txt
-│   ├── lof.py
-│   ├── outlier_player_career_dataset.txt
-│   ├── plt.py
-│   ├── Clustering_ associationrules.py
-│   ├── Predictive_Analysis_Classification.py
-│   ├── Predictive_Models_Graphs.xlsx
-│   ├── t_test.py
-│   ├── README.md
-│   ├── README.pdf
-│   ├── Project Report.md
-│   ├── Project Report.pdf
+- PJ Phase2
+  - PJ Phase1               
+    - add 21.salary_cleaned_newFormat.csv
+  - Main.py
+  - clean.py
+  - salary_src.csv
+  - salary_dst.xlsx
+  - player_src.csv
+  - player_dst.csv
+  - player_career_src.csv
+  - player_career_dst.xlsx
+  - player_normalization_dst.csv
+  - player_career_normalization_dst.csv
+  - mean_median_std_player.txt
+  - mean_median_std_player_career.txt
+  - mean_median_std_salary.txt
+  - lof.py
+  - outlier_player_career_dataset.txt
+  - plt.py
+  - Clustering_ associationrules.py
+  - Predictive_Analysis_Classification.py
+  - Predictive_Models_Graphs.xlsx
+  - t_test.py
+  - README.md
+  - README.pdf
+  - Project Report.md
+  - Project Report.pdf
 
 ### 2. Files Description
 
