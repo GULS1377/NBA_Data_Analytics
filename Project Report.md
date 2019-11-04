@@ -12,15 +12,15 @@
 
 - player_stats 
 
-  ![image-20191103212406137](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103212406137.png)
+   **![img](https://lh6.googleusercontent.com/s_QRiBc3M929GrP75qfdLziA62gLOVMkD3Ce8kYP8sdOr2OC25qwG913wHJQaFofWytRWX4wTk9TFzhJ2f2Lo3XXddwR1kudM4yXWw_iGzay3lU1MksBm-ZU6wdOQ0UDl57fGz-h)** 
 
 - player_career_stats  
 
-  ![image-20191103212444702](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103212444702.png)
+   **![img](https://lh4.googleusercontent.com/x-sUUHHpLcmccscdwk835yEqoyl6BzyuFDBOwwDWsUFW-DROjp0q1POgKENEF4eFGJIo2gMhKrcNEa6pVzHFYUT71f6JX_tn0hOfYQ_AjCKlGSRE6Zyei5b7vIXIrfH6GqGPhsmr)** 
 
 - Salary  
 
-  ![image-20191103212500698](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103212500698.png)
+   ![img](https://lh3.googleusercontent.com/wdxFudtGHgpFYfzanNAu7DgBHM5j75zIqNnDzbEpB4RVRZrI_yOQA10xxoZGgZ0A8cPWNyCPDW7hWyOEKIVwHDd601r5LE6p13WGiBVHtJn-mKTyNOIdfEbWY7brQYJLvOoOcb95) 
 
 #### 1.2 Data Normalization  
 
@@ -58,7 +58,7 @@
 >
 >  By cross-checking, 184 outliers are found.
 >
-> ![image-20191103213925428](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103213925428.png)
+>  **![img](https://lh5.googleusercontent.com/HQsNMHwfYu-Tq6NeiYO67gpt_-lcFPYXXipL3KAFYV1AJUSlCtRh5dfwrz_DhWvjMw69xWlkSTSVYJgbjjo3IbujIQfbzo6PRhRSgL_0lF2emAzyMkCZD51C1Uzw34GQUqwK4Rnj)** 
 
 ###  **2. Histograms and Correlations** 
 
@@ -94,7 +94,7 @@
 >
 > The order of PTS reflects the priorities of players’ role in games. No surprise.
 >
-> ![image-20191103215124153](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103215124153.png)
+>  ![img](https://lh5.googleusercontent.com/AyTgAWimALcEKEDyJlhj1jSRUWQSWCGboayv0O1akYf7XUwA8DSGqpFGkG190Zam7u0ZfQgape7-DOmaq3OQys8mCMnIzK2_EMjSs2ImNLyc8lZpom5-QfiIKVgCObXa4-833IHa) 
 >
 > ​                                                               Fig 2.1. Key indices of performance  
 
@@ -120,15 +120,15 @@
 >
 > Reviewing the 1st scatter plot(Fig. 2.3), from 2009 to 2015, 5 seasons’ decreasing in a row shows the longest continuous recession of the NBA since 1984.
 >
-> ![image-20191103215227582](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103215227582.png)
+>  **![img](https://lh6.googleusercontent.com/xOMJglrXHxtN0Q3WcHwS-qUdccMZAoFHY6NsyNtqWESu1p9VPzPKrWFSl-Yy0ojdWoR74jl3gz3HYFh2ddIerpRO7ft9YOkKSmh9QrQj9jwUqdhEDSLLuaZ48_0b90-CymiTFPxz)** 
 >
 > ​                                                      Fig 2.2 Season, Avg Salary and Record Count
 >
-> ![image-20191103215323024](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103215323024.png)
+>  **![img](https://lh3.googleusercontent.com/OGgnSmxsjUslBzdQslPRmENwCFFpMyN9w-3HcE0ZxTOw7BBRl6n8ioVcAU8Utk2Kqjt7OYvvLtxkR9-oFiBWFTYcIQkbqZfnQJ4AdL7bwuJVymx9WJvoxMvq2i758Jq9BZjeA_SX)** 
 >
 > ​                                                                   Fig 2.3 Avg Salary and Season
 >
-> ![image-20191103215340044](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103215340044.png)
+>  **![img](https://lh6.googleusercontent.com/B1nwigvw6iTyrzAJKj-Jw3BWZ9nQG-AaNNdT1glgztGf-YazXoVBKoDyowL9jql2Arg98sVMsHGuwFHWbYdKOgmOXEMu-U0vBPr7MwxDC7DKrqgmV58yqtqV78GMttkX-t3UhYX9)** 
 >
 > ​                                                               Fig 2.4 Record Count and Season  
 
@@ -340,7 +340,7 @@
   >   - ROC curve fpr:  [0., 0.03541667, 1.]
   >   - ROC curve tpr:  [0., 0.74782609, 1.]
   >   - ROC curve thresholds:  [2., 1., 0.]
-  >   - ![image-20191103142433091](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103142433091.png)
+  >   -   ![img](https://lh6.googleusercontent.com/7tUMp363hlWKuUnH1EVN8yinRN5-4OjJZy66vS4ywiG0kRxvjZbOH1OniKY-ZX_ZYMEeHrnHXLR1yHwp3JgjfPY2muCn-X5VMVG2GRsAjYxh4BD5ek6ee54G_3e64V7mRZceWcYN) 
   >
   > - AUC:  
   >
@@ -387,7 +387,7 @@
   >   - ROC curve fpr:  [0., 0.02291667, 1.]
   >   - ROC curve tpr:  [0., 0.55652174, 1.]
   >   - ROC curve thresholds:  [2., 1., 0.]
-  >   - ![image-20191103142543667](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103142543667.png)
+  >   -   ![img](https://lh4.googleusercontent.com/9IPT6_1O1--uzcvqI8ov50D7yFmgGyQS6_B4RvAV0F9XlUXdvjy2Gt4ihle3bDCb8LOA4FiWSbrUeMvOwa-CRXsz9BH3BRxrDfAsIZMSxDipzB70USC1mCbDYInBZ_yPwWAZXPQ7) 
   >
   > - AUC:  
   >
@@ -434,7 +434,7 @@
   >   - ROC curve fpr:  [0., 0.71458333, 1.]
   >   - ROC curve tpr:  [0., 0.95652174, 1.]
   >   - ROC curve thresholds:  [2., 1., 0.]
-  >   - ![image-20191103143727460](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103143727460.png)
+  >   -  ![img](https://lh5.googleusercontent.com/-OwuZrMr3_SlgvPYvAA8NAg6EbPUfsWFlkEYrmbIPZpkNoqk_udBsIezZ05zrOXW6T4M20Z8UHldWxgDvrAflwvCaAXu5jjAO5EFnlIEUNDXjayj2ELbvi1k_anaN6mH1KubPFfd) 
   >
   > - AUC:  
   >
@@ -481,7 +481,7 @@
   >   - ROC curve fpr:  [0., 0., 1.]
   >   - ROC curve tpr:  [0., 0.02608696, 1.]
   >   - ROC curve thresholds:  [2., 1., 0.]
-  >   - ![image-20191103144708938](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103144708938.png)
+  >   -   ![img](https://lh6.googleusercontent.com/gyZH2unvAMR05BMsX6fNzB4Bga5luIBX-Bx_R6cHmcHwANznpxZhd3dFF8ajwj0VH6-oPmJjRfDHdflq8a4IXp-bWKErIAe2RmFjr6XwVXzhk30cC5xqBi_gSBR7hTT8NEdGN0jn) 
   >
   > - AUC:  
   >
@@ -530,7 +530,7 @@
   >   - ROC curve fpr:  [0., 0.01041667., 1.]
   >   - ROC curve tpr:  [0., , 1.]
   >   - ROC curve thresholds:  [2., 1., 0.]
-  >   - ![image-20191103150457783](C:\Users\Lu Sun\AppData\Roaming\Typora\typora-user-images\image-20191103150457783.png)
+  >   -  ![img](https://lh6.googleusercontent.com/AGZ1223Gb27DXzhk9-YLsX-JPf0xST6CD3cjiar2FezoZcqmatE6SmNtPM8Hg8_vH8k1T7BR7TfGVnK3SEICtoeR5ZngFTMfE0C-DNkYK1JBeMr8wRM9SPrTOdSSIDetupuqKy51) 
   >
   > - AUC:  
   >
