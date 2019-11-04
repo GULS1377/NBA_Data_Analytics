@@ -6,7 +6,8 @@
 
 .
 ├── PJ Phase2
-│   ├── PJ Phase1                              
+│   ├── PJ Phase1               
+│    |     ├──  add 21.salary_cleaned_newFormat.csv
 │   ├── Main.py
 │   ├── clean.py
 │   ├── salary_src.csv
@@ -34,6 +35,7 @@
 ### 2. Files Description
 
 - PJ Phase1: the directory of our original PJ Phase 1.
+- 21.salary_cleaned_newFormat.csv: change from PJ Phase1/9.salary_cleaned.xlsx, used for association rules part.
 - Main.py: the main python file of the whole PJ Phase2.
 - clean.py: main python for Basic Statistical Analysis and data cleaning insight.
 - salary_src.csv: salary dataset from PJ Phase1.
