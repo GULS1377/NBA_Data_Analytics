@@ -139,8 +139,8 @@ def association():
     oht_ary = te.fit(dataset).transform(dataset, sparse=True)
     sparse_df = pd.SparseDataFrame(oht_ary, columns=te.columns_, default_fill_value=False)
 
-    print_apriori(sparse_df, 0.28)
     print_apriori(sparse_df, 0.25)
+    print_apriori(sparse_df, 0.20)
     print_apriori(sparse_df, 0.125)
 
 
