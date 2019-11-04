@@ -117,7 +117,7 @@ def print_apriori(sparse_df, min_support_value):
 
 
 def association():
-    salary_of_player = pd.read_csv('PJ Phase1\\9.salary_cleaned.csv', header=None)
+    salary_of_player = pd.read_csv('PJ Phase1\\21.salary_cleaned_newFormat.csv', header=None)
 
     # manually added column to make sense
     salary_of_player.columns = ['name', 'serving_year', 'team', 'career', 'salary']
