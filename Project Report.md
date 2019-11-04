@@ -211,21 +211,17 @@
 
 >  We chose the subset of salary.csv. Then, we calculate the support in the python program, which means the frequent of each player occurs together (with others if possible) as a percentage in all records. So using Apriori algorithm can find the players who are mostly like to server in the same team among their careers. With lower percentage, the more likely to find players served in the same team. We chose three different support levels, they are 0.28, 0.25 and 0.125. 
 >
->  When min_support_value = 0.25, it has five itemsets, and the most frequent patterns are (Jarrett Jack), (Juwan Howard),(Mike James), (Mike Wilks)and (Shaun Livingston). 
+> When min_support_value = 0.28, it only has one itemset: (Mike James), and the support is 0.282051.
+>
+>  ![img](https://lh4.googleusercontent.com/XJ9KDdMhxEscNf3nBFiwBkl1-3PDfu1okO3rklbbELKbsP4PxolOTS0CqeLwia5YbTSstSYX3cV3pzVRlceuBrjHSYznoHDskZ9ft40ywbsks9wYFb52SZLpGLb2yKJLZwGOnxhc) 
+>
+> When min_support_value = 0.25, it has five itemsets, and the most frequent patterns are (Jarrett Jack), (Juwan Howard), (Mike Wilks) and (Shaun Livingston), and the support of them is 0.256410.
 >
 >  ![img](https://lh5.googleusercontent.com/LqDauKoSoAnUBLizk4wt0fF7YkopToQA3Wy2GqVXvWnbU6njWSUlQxf5M0MrTqNvi4WOB1BUxeyZinCgIL59da4gdKoWGBMQUnAlPH_-Bco-OEUnxm8B-DlLRlSg_5r9CgkIn3Dr) 
 >
->  When min_support_value = 0.20, it has 55 itemsets. The 55 item sets are the most frequent itemsets when min_support_value = 0.20. 
+>  When min_support_value = 0.125, it has 529 itemsets, and when the support = 0.128205, it has many different itemsets meet the requirement. 
 >
->  ![img](https://lh6.googleusercontent.com/37q3OAMtZLk2obUpLKiYKKJ4HxPjqCFGeg0x43s9SiUVc7HvWjeTuauyBf1a8mKMxXWikgFn_vF0yk5oVAsiM6-peixI_2ZnsgybPXMutBFv3WN_gUXbXR8e58HJG1DV-lUNJglh) 
->
->  ![img](https://lh4.googleusercontent.com/ai6qdU0SrmT0kK_f6fKvZOSCrattuYKZ87RF4cexf1KMifwMtv81cwVr0jlaPfLqF7j2WJgToWi2DPYLZp7gXs6PYEAfpzAEbIDg5pEcdi8JYqzE9Qw_yIiqkXXJVCZTl53V6bsU) 
->
->  ![img](https://lh3.googleusercontent.com/8VJHS4KL7kI62uMaKIbnmV4jHgTCt_R_iddZw1ta4qz_IdGvKNtzYdTknw2kFG9wORHtLozJzbwOEGPxybnOxlcFmEGFpnijBGv0RA3_BlkA3-dylRUG9uGZIRUmCV1fpXT64h0_) 
->
->  When min_support_value = 0.125, it has 538 itemsets. Those 538 itemsets are the most frequent itemsets when min_support_value = 0.125. 
->
->   ![img](https://lh6.googleusercontent.com/RTcxFN2O9qR7n1Aj1QbZ83CTusH3TPHGkK8XGJdb6iQQIhbw35TfgHtYIFIkLkd9QMOn3DXLr4K5Gh0HtIFJR42ujCX7JFHCUivUhGMcgOJiAj1OJHID8H2hb14vTA4Elja0lsgD) 
+>  ![img](https://lh3.googleusercontent.com/_j8ZpT_whkVbxUwQTELZ0EDK43WJRUuwJjWEenD2BrfhAs5Q0pc-rMkrxFSjmesqnSwOj3JFZC5dB33_SDTu0RpjXxWWle3VXydA3fOVKyRBIGMuNHoyn7pi4f_IpuQKxkvn0vZ_)
 
  ### **5. Hypothesis Testing & Classification** 
 
